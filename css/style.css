@@ -221,7 +221,6 @@ body{
 	place-content: center;
 
 	opacity: 0;
-	transform: translateY(-100);
 }
 .research_card_person_name_svg_text{
 	fill: #FFF;
@@ -285,6 +284,10 @@ body{
 	display: grid;
 	place-items: center;
 	gap: 1rem;
+	width: 100%;
+}
+.research_card{
+	width: auto;
 }
 }
 /*  */
