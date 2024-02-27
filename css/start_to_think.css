@@ -1,0 +1,128 @@
+/* main_concentrate_section_desktop */
+.main_concentrate_section{
+    margin-top: 1rem;
+    background-image: url(../img/main_concentrate.bg.png);
+    background-size: cover;
+}
+
+.img_concentrate_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.img_concentrate_section i {
+    font-size: 18rem;
+    background: linear-gradient(180deg, #F5E8EB 9.2%, #E6C5CD 54.91%, #D9A5B2 97.36%, rgba(245, 232, 235, 0.00) 100%, #F5E8EB 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+.img_concentrate_section_02 i{ 
+    background: linear-gradient(60deg, #73E5C6 50.89%, #8179EF 94.58%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.time_to_task_section{
+    display: flex;
+    width: 100vw;
+}
+.time_to_task_section_side{
+    width: 50%;
+}
+
+.time_to_task_section_right_side{
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-image-source: linear-gradient(270deg, #11E5B3 -6.57%, #5263FE 105.5%);
+    border-image-slice: 1;
+    
+}
+
+.task_section_time p{
+    color: #FFF;
+    font-family: "Press_Start_2P";
+    font-size: 3.75rem;
+    font-weight: 400;
+
+    padding: 0 1rem 1.15rem 1rem;
+    display: inline-block;
+
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-image-source: linear-gradient(180deg, #11E5B3 -6.57%, #5263FE 105.5%);
+    border-image-slice: 1;
+}
+.custom_circle_to_task{
+    width: 4rem;
+    height: 4rem;
+    border: 10px solid #FFFFFF;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.task_section_task{
+    border-radius: 0.21538rem;
+    border: 1px solid #11E5B3;
+    background: linear-gradient(180deg, #075F60 0%, rgba(7, 95, 96, 0.00) 83.22%);
+    padding: 0.9rem;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    height: auto;
+}
+.task_section_task p{
+    color: #FFF;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #11E5B3;
+    font-family: "Exo_2";
+    font-size: 1.875rem;  
+    opacity: 1;
+}
+
+.time_to_task_section_left_side .task_section_time{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.time_to_task_section_gap_element_001{
+    padding-top: 21rem;
+}
+.time_to_task_section_gap_element_002{
+    padding-top: 30rem;
+}
+/*  */
+
+/* main_concentrate_section_mobile */
+@media(max-width: 900px){
+.time_to_task_section{
+    display: grid;
+    justify-content: center;
+}
+.time_to_task_section_gap_element_001{
+    padding-top: 0rem;
+}
+.time_to_task_section_gap_element_002{
+    padding-top: 0rem;
+}
+.time_to_task_section_right_side{
+    border: none;
+}
+.task_section_task{
+    width: 95vw;
+    margin-bottom: 6rem;
+}
+.time_to_task_section_left_side .task_section_time{
+    display: block;
+}
+}
+/*  */
+
+/* footer */
+footer{
+    margin-top: 0;
+}
+/*  */

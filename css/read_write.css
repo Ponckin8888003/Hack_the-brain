@@ -1,0 +1,127 @@
+.block{
+    width: 100%;
+    height: auto;
+}
+.h1_title h1{
+    font-family:"Russo_One";
+    color: white;
+    text-align: center;
+    margin: 3rem 0rem 5rem 0rem;
+    font-size: 5rem;
+}
+.h1_title{
+    background: #00091C;
+}
+.text_abuet_one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.text_abuet_two{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.bg_svg{
+    background: rgb(190,190,190);
+    background: linear-gradient(90deg, rgba(190,190,190,0) 18%, rgba(0,137,105,1) 100%);
+    border-radius: 0px 0px 25px 0px;
+    width: 35%;
+    height: 100%;
+}
+.text_svg{
+    font-family: "Exo_2";
+    fill: white;
+    font-size: 28px;
+}
+.arrow-left{
+    width: 10%;
+    height: 10%;
+}
+.arrow-right{
+    width: 10%;
+    height: 10%;  
+}
+.bg2_svg{
+    width: 35%;
+    height: 50%;
+}
+.arrow-down{
+    display: none;
+}
+.div_arrow-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: #00091C;
+}
+.bg_svg_two{
+    margin-right: 40px;
+    width: 25%;
+}
+.Write_it_down{
+    width: 30%;
+}
+.p{
+    font-family: "Russo_One";
+    fill: white;
+    font-size: 45px;
+}
+.p_two{
+    font-family: "Exo_2";
+    fill: white;
+    font-size: 45px;   
+}
+.text_svg_two{
+    font-family:"Exo_2";
+    fill: white;
+    font-size: 50px;
+}
+@media (max-width:1000px){
+    .h1_title h1{
+        font-size: 3rem;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_abuet_one{
+        flex-direction: column;
+    }
+    .arrow-left{
+        display: none;
+    }
+    .text_abuet_two{
+        flex-direction: column;
+    }
+    .arrow-right{
+        display: none;
+    }
+    .arrow-down{
+        display: block;
+        width: 20%;
+        height: 80%; 
+    }
+    .bg_svg_two{
+        margin-bottom: 25px;
+    }
+    .bg_svg{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .bg2_svg{
+        width: 80%;
+    }
+    .bg_svg_two{
+        width: 80%;
+    }
+    .Write_it_down{
+        width: 80%;
+    }
+}

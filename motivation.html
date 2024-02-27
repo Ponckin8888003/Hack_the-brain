@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хакни мозок, стань більше самого себе</title>
+    <link rel="shortcut icon" href="img/logo.png"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motivation.css">
+</head>
+<body>
+    <section class="chat">
+        <a href="index.html">
+            <img src="img/logo.png" alt="" class="img_icon">
+        </a>
+        <h1 class="visually-hidden">Чат</h1>
+        <div class="chat-content">
+ 
+        </div>
+ 
+        <form class="chat-form" action="" method="post">
+          <input class="chat-form-input" type="text" aria-label="Ваше повідомлення" placeholder="Заплутай світ своїх думок..." required>
+          <button class="chat-form-button" type="submit">
+            <svg class="svg-chat-form-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(245,238,238,1)" width="90%" height="90%"><path d="M19.1642 12L12.9571 5.79291L11.5429 7.20712L16.3358 12L11.5429 16.7929L12.9571 18.2071L19.1642 12ZM13.5143 12L7.30722 5.79291L5.89301 7.20712L10.6859 12L5.89301 16.7929L7.30722 18.2071L13.5143 12Z"></path></svg>
+        </button>
+        </form>
+      </section>
+ 
+      <template id="message-template">
+        <div class="chat-message" tabindex="0">
+          <span class="chat-message-name"></span>
+          <p class="chat-message-text"></p>
+          <button class="chat-message-button" type="button">Видалити
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(233,24,24,1)"><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg>
+          </button>
+        </div>
+      </template>
+ 
+    <script src="js/motivation.js"></script>
+</body>
+</html>

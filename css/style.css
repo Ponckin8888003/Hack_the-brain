@@ -1,0 +1,306 @@
+/* fonts */
+@font-face{
+	font-family: "Russo_One";
+	src: url(../fonts/Russo_One/RussoOne-Regular.ttf);
+}
+@font-face{
+	font-family: "Press_Start_2P";
+	src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face{
+	font-family: "Stalinist_One";
+	src: url(../fonts/Stalinist_One/StalinistOne-Regular.ttf);
+}
+@font-face{
+	font-family: "Exo_2";
+	src: url(../fonts/Exo_2/Exo2-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: "PT_Sans-Bold";
+	src: url(../fonts/PT_sans-Bold/PTSans-Bold.ttf);
+}
+/*  */
+
+
+
+/*  */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*  */
+
+
+body{
+	background-color: #00091C;
+	overflow-x: hidden;
+}
+
+
+
+/* main_page_desktop */
+.main_hands_section{
+	width: 100vw;
+	height: 100vh;
+
+	background-image: url(../img/bottom_main_bar.png), url(../img/main_background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom, center;
+
+	position: relative;
+}
+
+.svg_main_text{
+	font-family: "Russo_One";
+	font-size: 4rem;
+	fill: url(#textGradient);
+	background: radial-gradient(73.08% 73.08% at 50% -0.51%, #FCDAFF 0%, #CF52FE 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-anchor:middle;
+	-webkit-transform: translate(50%,50%);
+	transform: translate(50%,50%);
+
+
+	opacity: 0;
+}
+.svg_object_01{
+	transform: translateY(-35px);
+}
+
+.img_hands_section{
+	width: 100vw;
+	margin-top: -7.7rem;
+}
+.img_hands_section img {
+	max-width: 100vw;
+	height: 100vh;
+}
+.main_lan_icon{
+	width: 18.875rem;
+	height: 18.875rem;
+	object-fit: contain;
+
+	position: absolute;
+
+	opacity: 0;
+	width: 0;
+	height: 0;
+	
+}
+.main_react_icon{
+	top: 60%;
+	left: 15%;
+}
+.main_jquery_icon{
+	top: 60%;
+	right: 15%;
+}
+/*  */
+
+
+
+/* main_page_tablet */
+@media(min-width: 767px) and (max-width: 1023px){
+.main_hands_section{
+	height: auto;
+	background-image: url(../img/main_background.png);
+	background-position: center;
+
+}
+.svg_object_01 path{
+	fill: none;
+}
+.svg_object_01{
+	background: linear-gradient(4deg, rgba(252, 81, 248, 0.00) 8.39%, rgba(204, 81, 250, 0.30) 98.74%);
+}
+.svg_object_02{
+	width: 100vw;
+	height: 200px;
+}
+.svg_main_text{
+	font-size: 13vw;
+}
+.img_hands_section img{
+	width: 100vw;
+	height: auto;
+	margin-top: -6rem;
+}
+.main_lan_icon{
+	transform: scale(1.2);
+}
+.main_react_icon{
+	top: 30%;
+	left: 35%;
+}
+.main_jquery_icon{
+	top: 60%;
+	right: 35%;
+}
+}
+/*  */
+
+
+
+/* main_page_mobile */
+@media(max-width: 767px){
+.main_hands_section{
+	height: auto;
+	background-image: url(../img/main_background.png);
+	background-position: center;
+
+}
+.svg_object_01 path{
+	fill: none;
+}
+.svg_object_01{
+	background: linear-gradient(4deg, rgba(252, 81, 248, 0.00) 8.39%, rgba(204, 81, 250, 0.30) 98.74%);
+}
+.svg_main_text{
+	font-size: 750%;
+	padding-top: 50px;
+}
+.img_hands_section img{
+	width: 100vw;
+	height: auto;
+	margin-top: -4rem;
+
+}
+.main_lan_icon{
+	transform: scale(0.9);
+}
+.main_react_icon{
+	top: 25%;
+	left: 30%;
+}
+.main_jquery_icon{
+	top: 60%;
+	right: 20%;
+}
+}
+/*  */
+
+
+
+
+
+
+/* research desktop */
+.research_section{
+	margin-top: 6rem;
+}
+.research_main_text_section{
+	background-image: url(../img/research_top_bg.png), url(../img/research_bottom_bg.png);
+	background-repeat: no-repeat;
+	background-position: top, bottom;
+}
+.research_main_text_section p{
+	font-family: 'Russo_One';
+	color: #FFFFFF;	
+	padding: 5.5rem 0rem 5.5rem 5.5rem;
+	font-size: 5rem;
+	opacity: 0;
+}
+
+.card_researches_section{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.research_card{
+	width: 36.25rem;
+	min-height: 1050px;
+	background-image: url(../img/reasearch_card.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	display: grid;
+	place-content: center;
+
+	opacity: 0;
+	transform: translateY(-100);
+}
+.research_card_person_name_svg_text{
+	fill: #FFF;
+	font-size: 2.625rem;
+	font-family: 'Russo_One';
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.research_card_research_name_svg_text a{
+	fill: #FFF;
+	font-size: 2rem;
+	font-family: 'Exo_2';
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.research_card_person_img{
+	height: 27rem;
+}
+.research_card_03 .research_card_person_img img{
+	display: block;
+	margin: 0 auto;
+}
+
+/*  */
+
+
+
+/* research_tablet */
+@media(min-width: 767px) and (max-width: 1023px){
+.research_section{
+	margin-top: 4rem;
+}
+.research_main_text_section p{
+	padding: 5.5rem 0rem 5.5rem 0rem;
+	text-align: center;
+}
+
+.card_researches_section{
+	display: grid;
+	place-items: center;
+	gap: 1rem;
+}
+}
+/*  */
+	
+	
+	
+/* research_mobile */
+@media(max-width: 767px){
+.research_section{
+	margin-top: 4rem;
+}
+.research_main_text_section p{
+	padding: 5.5rem 0rem 5.5rem 0rem;
+	text-align: center;
+	font-size: 10vw;
+}
+
+.card_researches_section{
+	display: grid;
+	place-items: center;
+	gap: 1rem;
+}
+}
+/*  */
+
+
+
+
+
+
+/* animation block */
+*{
+	transition: 0.3s !important;
+}
+.research_card_research_name_svg_text a:hover{
+	fill: #2d63c8;
+	font-weight: 600;
+
+}
+/*  */
