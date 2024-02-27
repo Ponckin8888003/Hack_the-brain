@@ -32,9 +32,16 @@
 /*  */
 
 
+
+html{
+    overflow-x: hidden !important;
+    overscroll-behavior-x: none !important;
+}
 body{
-	background-color: #00091C;
-	overflow-x: hidden;
+    background-color: #00091C;
+    overflow-x: hidden !important;
+    width: 100vw;
+    overscroll-behavior-x: none !important;
 }
 
 
@@ -288,6 +295,10 @@ body{
 }
 .research_card{
 	width: auto;
+}
+.research_card_person_name_svg_text{
+	font-size: 2rem;
+	transform: translateX(20px);
 }
 }
 /*  */
