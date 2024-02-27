@@ -55,5 +55,4 @@ gsap.to(".research_card", {
     },
     opacity: 1,
     duration: 1.5,
-    y: 40,
 });
