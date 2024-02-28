@@ -235,8 +235,10 @@ body{
 	font-family: 'Russo_One';
 	font-weight: 500;
 	text-transform: uppercase;
+	z-index: 999;
 }
 .research_card_research_name_svg_text a{
+	z-index: 999;
 	fill: #FFF;
 	font-size: 2rem;
 	font-family: 'Exo_2';
